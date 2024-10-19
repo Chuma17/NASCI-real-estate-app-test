@@ -20,7 +20,7 @@ import { NewsProvider } from "./context/newsProvider";
 import { ListingsProvider } from "./context/listingsProvider";
 export const router = createBrowserRouter([
   {
-    path: "/NASCI-real-estate-app-test",
+    path: "/chuma17.github.io/NASCI-real-estate-app-test",
 
     element: (
       <ProtectedRoute>
