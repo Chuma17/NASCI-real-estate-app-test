@@ -1,0 +1,40 @@
+.estimator {
+  margin-top: 8rem;
+}
+
+.estimates_title {
+  margin-top: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.estimator h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.estimator h2 span {
+  background: linear-gradient(0deg, #5d5fef, #5d5fef),
+    linear-gradient(0deg, #101214, #101214);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font: Merriweather;
+}
+.get-estimates {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.get-estimates input {
+  width: 40%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-left: 2.4rem;
+}
+
+.estimates-location-icon {
+  position: absolute;
+  top: 3rem;
+  left: 0.75rem;
+}

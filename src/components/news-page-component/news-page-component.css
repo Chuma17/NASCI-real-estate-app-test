@@ -1,0 +1,21 @@
+.news-page-component {
+  display: flex;
+  width: 90%;
+  margin-top: 5%;
+  /* background-color: white; */
+  margin-top: 5%;
+}
+.news-page-component img {
+  width: 20%;
+}
+.news-page-component-details {
+  padding: 1rem 1.2rem;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+.news-page-component-details h3 {
+  font-size: 1.2rem;
+}
+.news-page-component-details span {
+  color: #5d5fef;
+}

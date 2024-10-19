@@ -1,0 +1,115 @@
+.signup {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* background: #ADB5BD; */
+}
+.logo {
+  position: absolute;
+  right: 0rem;
+  top: 2.5rem;
+  width: auto;
+}
+
+.logo img {
+  width: 65%;
+}
+
+.backgroundImg {
+  /* flex: 2; */
+  /* background-color: black; */
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  width: 33vw;
+  height: 100vh;
+  /* width: auto; */
+  object-fit: cover;
+  /* background-image: url('../../../public/assets/signup_background.png'); */
+}
+
+.backgroundImg img {
+  height: 100%;
+  width: 34vw;
+}
+
+.right_component {
+  flex: 4;
+  /* background-color: magenta; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formcomponent {
+  outline: solid 1px black;
+  width: 45%;
+  margin-top: 5rem;
+  height: fit-content;
+  padding: 1rem 2rem;
+}
+.formcomponent h2 {
+  font-weight: 400;
+}
+
+.formcomponent input {
+  width: 100%;
+  height: 2rem;
+  outline: 1px solid gray;
+  box-sizing: border-box;
+  border: none;
+  padding: 1.25rem 0.5rem;
+  margin-top: 1rem;
+}
+
+.formcomponent label {
+  font-size: 0.85rem;
+}
+
+.signup_btns {
+  margin-top: 2rem;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup_btns button {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+}
+
+.signup_btns > button:first-child {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+
+.google-provider-btn .google_signup {
+  background: white;
+  width: 100%;
+  outline: 1px solid black;
+  color: black;
+}
+.google-provider-btn {
+  position: relative;
+  width: 100%;
+}
+.signup-google-provider {
+  top: 0.65rem;
+  left: 10%;
+  position: absolute;
+}
+
+.formcomponent p {
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.signin_link {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}

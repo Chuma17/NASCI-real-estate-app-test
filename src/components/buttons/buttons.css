@@ -1,0 +1,18 @@
+.btn {
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+  border: none;
+  height: 100%;
+  cursor: pointer;
+  /* outline: 1px solid black; */
+}
+
+.btn-grey {
+  background-color: #adb5bd;
+  color: black;
+}
+.btn-black {
+  background-color: black;
+  color: white;
+}

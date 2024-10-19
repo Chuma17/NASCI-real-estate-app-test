@@ -1,0 +1,48 @@
+.property_head {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.property_search {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.property_search :first-child {
+  margin-right: 1rem;
+}
+
+.property_select {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.property_head input {
+  width: 10rem;
+  font-size: 0.8rem;
+  /* padding: 0.5rem; */
+}
+
+.property_head select {
+  width: 7rem;
+  padding: 0.45rem;
+  height: 2.5rem;
+  font-size: 0.75rem;
+  box-sizing: border-box;
+}
+
+.property_feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.property_feature_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 3rem;
+  width: 100%;
+}

@@ -1,0 +1,74 @@
+.market-trends {
+  width: 90%;
+}
+.market_trends_title {
+  display: flex;
+}
+
+.market_trends_title span {
+  display: flex;
+}
+
+.market_trends_title span:last-child {
+  margin-left: auto;
+}
+
+.market_trends_filter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.market_trends_element label {
+  margin-bottom: 1rem;
+}
+
+.market_trends_filter select {
+  width: 100%;
+  padding: 0.65rem;
+}
+
+.market_trends_filter_description_info {
+  margin-top: 3rem;
+}
+.market_trends_filter_description_info_general_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.market_trends_filter_description_info_general_details > {
+  text-align: center;
+}
+.listings_el {
+  text-align: center;
+  width: 100%;
+  border-left: 1px solid black;
+}
+.median_price {
+  text-align: center;
+  width: 100%;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.lte-font-weight {
+  font-weight: 200;
+}
+.market_trends_filter_description_info_marketinfo {
+  margin-top: 8rem;
+}
+.market_trends_filter_description_info_marketinfo_details {
+  margin-top: 5rem;
+  text-align: center;
+}
+.svg-class-name {
+  height: 1rem;
+  width: 1rem;
+}
+
+.market-trends-chart {
+  width: 90%;
+  margin-left: 5%;
+}

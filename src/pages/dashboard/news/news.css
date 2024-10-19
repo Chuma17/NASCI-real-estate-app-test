@@ -1,0 +1,19 @@
+.news_page_list button {
+  /* position: fixed; */
+  /* top: 60vh; */
+  right: 0;
+  background-color: #f2994a;
+  border: none;
+  padding: 1rem;
+}
+
+.news_loading_lottie svg {
+  width: 10% !important;
+}
+.news_loading_lottie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}

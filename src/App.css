@@ -1,0 +1,38 @@
+* {
+  font-family: "Manrope", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  text-rendering: optimizeLegibility;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("./assets/arrow-down.svg"); /* Replace with your custom arrow image */
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding: 0.5rem;
+}
+
+.little-text {
+  font-size: 0.95rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.startup_loading_screen svg {
+  width: 10% !important;
+}
+.startup_loading_screen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}

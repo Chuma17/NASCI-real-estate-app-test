@@ -1,0 +1,21 @@
+.map-element {
+  width: 55%;
+  position: relative;
+}
+
+.info-window-marker {
+  width: 100vh;
+  background-color: red;
+  height: 3rem;
+}
+
+.map_loading_animation svg {
+  width: 10% !important;
+}
+.map_loading_animation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}

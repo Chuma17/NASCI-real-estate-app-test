@@ -1,0 +1,51 @@
+.subscribe-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  outline: 1px solid orange;
+  padding: 2rem;
+}
+
+.subscribe-modal h2 {
+  text-align: left;
+}
+.subscribe-modal p {
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.subscribe-modal form {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.subscribe-modal input {
+  width: 100%;
+  height: 3rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.subscribe-modal button {
+  color: black;
+  background-color: Orange;
+  margin-top: 2rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  /* letter-spacing: 0.25rem; */
+  width: 100%;
+  padding: 0.85rem;
+}
+.subscribe-modal-cancel {
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+}

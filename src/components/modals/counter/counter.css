@@ -1,0 +1,22 @@
+.counter-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.53rem;
+  text-align: left;
+  width: 40%;
+  margin-bottom: 0.35rem;
+  margin-right: 10%;
+  /* justify-content: center; */
+}
+.counter-component button {
+  all: unset;
+  padding: 0 0.25rem;
+  font-size: 0.85rem;
+  border: 1px solid black;
+}
+
+.counter-component p {
+  font-size: 0.9rem;
+}

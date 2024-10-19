@@ -1,0 +1,145 @@
+.overview_info {
+  flex: 2;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.overview_info_details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.overview_info_details :last-child {
+  margin-left: auto;
+  display: flex;
+  font-size: 0.85rem;
+}
+.overview_details {
+  color: black;
+  display: grid;
+  flex: 8;
+  grid-template-areas:
+    "sales_price sales_price listings listings news news"
+    "major_construction_zones major_construction_zones major_construction_zones major_construction_zones news news"
+    "major_construction_zones major_construction_zones major_construction_zones major_construction_zones news news"
+    "major_construction_zones major_construction_zones major_construction_zones major_construction_zones news news"
+    "overview_maps overview_maps overview_maps overview_maps overview_maps overview_maps ";
+  gap: 2rem 2rem;
+  grid-auto-columns: 1fr; /* Set the width for automatically generated columns */
+  /* grid-auto-rows: 2fr; */
+}
+
+.sales_price,
+.listings,
+.news,
+.major_construction_zones,
+.overview_maps {
+  padding: 0.75rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: 1px solid black;
+  font-size: 0.8rem;
+}
+.sales_price {
+  grid-area: sales_price;
+  display: grid;
+  /* padding: 1.2rem; */
+  grid-template-areas:
+    "sales_des sales_date"
+    "sales_cost sales_date";
+}
+
+.sales_des {
+  grid-area: sales_des;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+.sales_cost {
+  grid-area: sales_cost;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.sales_date {
+  grid-area: sales_date;
+  text-align: right;
+}
+
+.listings {
+  grid-area: listings;
+  display: grid;
+  grid-template-areas:
+    "listings_title listings_date"
+    "listings_number .";
+}
+
+.listings_title {
+  grid-area: listings_title;
+}
+.listings_number {
+  grid-area: listings_number;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.listings_date {
+  grid-area: listings_date;
+  text-align: right;
+}
+
+.news {
+  grid-area: news;
+}
+.major_construction_zones {
+  grid-area: major_construction_zones;
+}
+.overview_maps {
+  grid-area: overview_maps;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+.news_list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .news_list :first-child {
+  margin-top: 1.2rem;
+} */
+
+.news_card {
+  padding: 0.5rem;
+  padding-top: 0;
+  height: auto;
+  margin-top: 1rem;
+  /* grid-template-areas:
+    "news_card_img news_card_title"
+    "news_card_img news_card_date"; */
+  display: flex;
+}
+.news_card_title {
+  font-weight: 500;
+  grid-area: news_card_title;
+}
+.news_card_date {
+  display: flex;
+  margin-top: 0.15rem;
+  grid-area: news_card_date;
+}
+.news_card_date span {
+  margin-left: 0.5rem;
+}
+.news_card_content {
+  flex: 2;
+}
+
+.news_card_img {
+  flex: 1;
+  /* width: 100%; */
+  grid-area: news_card_img;
+}
+.news_card_img img {
+  width: 90%;
+}
