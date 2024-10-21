@@ -15,7 +15,7 @@ export function ListingsProvider({ children }) {
     }
 
     getData()
-  }, []);
+  }, [setListings]);
   return (
     <useListingProvider.Provider value={listings}>
       {children}
