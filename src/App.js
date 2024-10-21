@@ -1,10 +1,9 @@
 import "./App.css";
-import { RouterProvider } from "react-router-dom";
-import { router } from "./router";
 import { AuthProvider } from "./context/authProvider";
 import { useEffect, useState, Suspense } from "react";
 import Lottie from "lottie-react";
 import Loading from "src/pages/loading_animation.json";
+import AppRouter from "./router"; // Import the router component
 
 function App() {
   const [isReady, setIsReady] = useState(false);
@@ -25,7 +24,7 @@ function App() {
             />
           }
         >
-          <RouterProvider router={router} />
+          <AppRouter /> {/* Use the AppRouter here */}
         </Suspense>
       ) : (
         <Lottie

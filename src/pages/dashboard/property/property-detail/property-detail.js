@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./property-detail.css";
 import { SearchComp } from "src/components/search-comp/seacrch-comp";
 import { Link } from "react-router-dom";

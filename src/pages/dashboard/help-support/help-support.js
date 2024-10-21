@@ -1,25 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import "./help-support.css";
 
 const HelpSupport = () => {
   document.title = "Help & Support";
 
-  const [tickets, setTickets] = useState([]);
-  const [title, setTitle] = useState("");
-  const [message, setMessage] = useState("");
+  // const [tickets, setTickets] = useState([]);
+  // const [title, setTitle] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const newTicket = {
-      title,
-      message,
-      status: "Open",
-      date: new Date().toLocaleDateString(),
-    };
-    setTickets([...tickets, newTicket]);
-    setTitle("");
-    setMessage("");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const newTicket = {
+  //     title,
+  //     message,
+  //     status: "Open",
+  //     date: new Date().toLocaleDateString(),
+  //   };
+  //   setTickets([...tickets, newTicket]);
+  //   setTitle("");
+  //   setMessage("");
+  // };
 
   return (
     <div className="help-support mt-8">

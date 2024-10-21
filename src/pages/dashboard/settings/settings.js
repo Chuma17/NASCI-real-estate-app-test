@@ -1,6 +1,5 @@
 import "./settings.css";
 import React, { useState } from "react";
-import { CloudUploadIcon } from "@heroicons/react/solid";
 
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
@@ -100,46 +99,46 @@ const Settings = () => {
   );
 };
 
-function UploadFile() {
-  const [selectedFile, setSelectedFile] = useState(null);
+// function UploadFile() {
+//   const [selectedFile, setSelectedFile] = useState(null);
 
-  const handleFileChange = (e) => {
-    setSelectedFile(e.target.files[0]);
-  };
+//   const handleFileChange = (e) => {
+//     setSelectedFile(e.target.files[0]);
+//   };
 
-  const handleUpload = () => {
-    // You can implement the upload logic here, e.g., send the selectedFile to the server.
-    console.log("Uploading:", selectedFile);
-  };
+//   const handleUpload = () => {
+//     // You can implement the upload logic here, e.g., send the selectedFile to the server.
+//     console.log("Uploading:", selectedFile);
+//   };
 
-  return (
-    <div className="p-4 border w-2/4 text-center ml-4 rounded-full shadow-md">
-      <label className="relative inline-block cursor-pointer">
-        <span className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg">
-          {/* <CloudUploadIcon className="h-6 w-6 mr-2" /> */}
-          Upload
-        </span>
-        <input
-          type="file"
-          className="absolute w-full h-full opacity-0 cursor-pointer"
-          accept="image/*"
-          onChange={handleFileChange}
-        />
-      </label>
-      {selectedFile && (
-        <div className="mt-4">
-          <p className="mb-2">Selected file: {selectedFile.name}</p>
-          <button
-            onClick={handleUpload}
-            className="bg-blue-500 text-white py-2 px-4 rounded-lg"
-          >
-            Upload
-          </button>
-        </div>
-      )}
-    </div>
-  );
-}
+//   return (
+//     <div className="p-4 border w-2/4 text-center ml-4 rounded-full shadow-md">
+//       <label className="relative inline-block cursor-pointer">
+//         <span className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg">
+//           {/* <CloudUploadIcon className="h-6 w-6 mr-2" /> */}
+//           Upload
+//         </span>
+//         <input
+//           type="file"
+//           className="absolute w-full h-full opacity-0 cursor-pointer"
+//           accept="image/*"
+//           onChange={handleFileChange}
+//         />
+//       </label>
+//       {selectedFile && (
+//         <div className="mt-4">
+//           <p className="mb-2">Selected file: {selectedFile.name}</p>
+//           <button
+//             onClick={handleUpload}
+//             className="bg-blue-500 text-white py-2 px-4 rounded-lg"
+//           >
+//             Upload
+//           </button>
+//         </div>
+//       )}
+//     </div>
+//   );
+// }
 
 function DropDownAccordian() {
   return (

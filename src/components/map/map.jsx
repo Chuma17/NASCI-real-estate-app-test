@@ -251,8 +251,6 @@ import {
   useLoadScript,
 } from "@react-google-maps/api";
 import MapInfoWindow from "../map-info-window/map-info-window";
-import { useListing } from "src/context/listingsProvider";
-import { useListingStore } from "src/stores/listings";
 const markers = [
   {
     id: 1,
@@ -279,7 +277,6 @@ const markers = [
 const center = { lat: 40.712776, lng: -74.005974 };
 
 function Map(props) {
-  const { listings } = useListingStore();
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY, // Add your API key
   });

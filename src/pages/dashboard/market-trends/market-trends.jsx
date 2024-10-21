@@ -8,7 +8,6 @@ import Uptrend from "../../../assets/dashboardicons/watchlist/trend-up.svg";
 import MessageQuestion from "../../../assets/dashboardicons/watchlist/message-question.svg";
 import Activity from "../../../assets/dashboardicons/watchlist/activity.svg";
 import { ReactSVG } from "react-svg";
-import Dropdown from "src/components/dropdown/dropdown";
 
 // import { Chart as Chartjs } from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
